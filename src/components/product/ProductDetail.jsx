@@ -6,7 +6,8 @@ import RelatedProduct from "./RelatedProduct";
 const ProductDetail = () => {
   const [product, setProduct] = useState();
   const { id } = useParams();
-  const url = "http://localhost:1000/api";
+  // const url = "http://localhost:1000/api";
+  const url = "https://e-commerce-api-e87l.onrender.com/api";
 
   useEffect(() => {
     const fetchProduct = async () => {

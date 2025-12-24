@@ -179,6 +179,7 @@ const AppState = (props) => {
   return (
     <AppContext.Provider
       value={{
+        url,
         products,
         register,
         login,

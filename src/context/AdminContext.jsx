@@ -4,7 +4,8 @@ import axios from "axios";
 const AdminContext = createContext();
 
 export const AdminProvider = ({ children }) => {
-  const url = "http://localhost:1000/api";
+  //const url = "http://localhost:1000/api";
+  const url = "https://e-commerce-api-e87l.onrender.com/api";
   const token = localStorage.getItem("token");
 
   const [adminProducts, setAdminProducts] = useState([]);
